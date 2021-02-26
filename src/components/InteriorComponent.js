@@ -139,7 +139,7 @@ function Interior() {
                             <img className="img-fluid" src={im0} alt=""/>
                         </div>
                         <div className="col-md-4 mb-4">
-                            <img className="img-fluid" src={im8} alt=""/>
+                            <img className="img-fluid" src={im8} alt="done"/>
                         </div>
                     </div>
                 </div>
