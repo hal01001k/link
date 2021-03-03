@@ -1,16 +1,14 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&family=Roboto&family=Varela+Round&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*.carousel-item {*/
+/*  width:100% !important;*/
+/*  min-width:100% !important;*/
+/*  height: auto;*/
+/*}*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.space{
+  padding-top: 50px;
 }
 
 .App-header {
@@ -28,11 +26,139 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  background-color: #dfe8fc;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.pad{
+  padding-top:500px;
+}
+
+.im-sz{
+  height:200px;
+  width:200px;
+}
+.section{
+  height: 315px;
+  background-color: #dfe8fc;
+}
+
+.phont{
+  font-family: 'Capriola', sans-serif;
+  text-align: center;
+}
+
+.nb{
+  font-family: 'Varela Round', sans-serif;
+}
+
+.ph{
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.navbar,
+.navbar-default {
+  align-items: center;
+  background: #33518E;
+  color: white;
+  font-weight: 300;
+  /*background-image: linear-gradient(to bottom,#4361ee,transparent 90%) !important; !* override background image gradient w/ flat color *!*/
+}
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.c_images{
+  display: block;
+  width: 100%;
+  max-height: 100vh;
+  height: auto;
+  object-fit: cover;
+
+}
+.caption{
+  /*font-size: 30px;*/
+  font-weight: 900;
+  /*margin-bottom: 10px;*/
+  padding: 0;
+  /*background: #3b5998;*/
+  /*text-decoration-color: #0b2e13;*/
+  /*opacity: 0.5;*/
+  /*width: 100%;*/
+  margin-left: 0;
+  background-image:
+          linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+          );
+}
+.home_services{
+  text-align: center;
+}
+
+.architecture_includes{
+  text-align: center;
+}
+
+.architecture_includes img{
+  width: 100%;
+  height: 200px;
+  border: solid black;
+
+  border-radius: 4px;
+}
+.architectural_plan{
+  /*text-align: center;*/
+}
+
+.architectural_plan img{
+  border: solid black;
+
+  border-radius: 4px;
+}
+.architecture_works img{
+  border: solid black;
+
+}
+
+/*this is the css for the interior compoents*/
+.interior_works img{
+  border-color: black;
+  border-radius: 4px;
+  width: 100%;
+  height: 200px;
+}
+
+.interior_services{
+  text-align: center;
+}
+
+/*css for about us page*/
+.about_office{
+  text-align: center;
+}
+
+/*css for ongoing page*/
+
+.ongoing_image{
+  border: black;
+  border-radius: 4px;
+}
+
+.ongoing_images img{
+  width: 100%;
+  height: 200px;
+  border: black;
 }

@@ -23,7 +23,7 @@ function About() {
         </Parallax>
     );
     return (
-        <div>
+        <div style={{paddingBottom:"20px"}}>
             <div className="section">
                 <p style={{paddingTop: '110px', fontSize: 80, textAlign: "center", fontFamily: 'Cabin'}}>Our Story</p>
             </div>

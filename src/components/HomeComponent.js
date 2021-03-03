@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Button, CardTitle, CardText, CardDeck, CardBody, CardSubtitle} from 'reactstrap';
+import { Card, Button, CardTitle, CardText, CardDeck, CardBody, CardSubtitle} from 'reactstrap';
 import Kerosel from './CarouselComponent'
 import Box from '@material-ui/core/Box';
 import done from "../assets/icons/Done.svg";
